@@ -121,11 +121,20 @@
   <data name="Chef_Kronk_DESI003" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chef-Kronk-DESI003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="meaTLOAF" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\meaTLOAF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="meatloaf2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meatloaf2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="PIZZA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PIZZA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizzamain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizzamain.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Screenshot_2020_09_26_182954" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2020-09-26 182954.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -135,5 +144,8 @@
   </data>
   <data name="STEAK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\STEAK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steakmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steakmain.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

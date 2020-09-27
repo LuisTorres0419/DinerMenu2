@@ -137,5 +137,17 @@
   <ItemGroup>
     <None Include="Resources\Screenshot 2020-09-26 182954.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meatloaf2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzamain.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steakmain.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

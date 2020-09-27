@@ -6,6 +6,7 @@
 'https://github.com/LuisTorres0419/DinerMenu2.git
 
 Public Class DinerMenu2Form
+
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
         Me.Close()
     End Sub
@@ -41,16 +42,16 @@ Public Class DinerMenu2Form
     End Sub
 
     Private Sub SteakButton_Click(sender As Object, e As EventArgs) Handles SteakButton.Click
+        Me.item1Label.Text = "~Steak~"
 
-        Me.item1Label.Text = "~Meatloaf~"
+        Me.item2Label.Text = " -Free range
+-Boxing glove 
+-Sandal
+-Lightly salted 
+-Seared
+-Medium rare"
 
-        Me.item2Label.Text = "-gorund beef
--egg
--onion
--salt And pepper
--prepared mustard
--katchup"
-
+        My.Computer.Audio.Play("C:\Users\User\source\repos\DinerMenu2\DinerMenu2\Resources\steakmain.wav")
 
     End Sub
 
@@ -64,21 +65,22 @@ Public Class DinerMenu2Form
 -Mozzarella 
 -Love"
 
+        My.Computer.Audio.Play("C:\Users\User\source\repos\DinerMenu2\DinerMenu2\Resources\pizzamain.wav")
+
     End Sub
 
     Private Sub MeatloafButton_Click(sender As Object, e As EventArgs) Handles MeatloafButton.Click
+        Me.item1Label.Text = "~Meatloaf~"
 
-        Me.item1Label.Text = "~Steak~"
+        Me.item2Label.Text = "-gorund beef
+-egg
+-onion
+-salt And pepper
+-prepared mustard
+-katchup"
 
-        Me.item2Label.Text = " -Free range
--Boxing glove 
--Sandal
--Lightly salted 
--Seared
--Medium rare"
-    End Sub
-
-    Private Sub DinerMenu2Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        My.Computer.Audio.Play("C:\Users\User\source\repos\DinerMenu2\DinerMenu2\Resources\meatloaf2.wav")
 
     End Sub
+
 End Class

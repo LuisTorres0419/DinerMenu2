@@ -114,6 +114,7 @@ Partial Class DinerMenu2Form
         'ExitButton
         '
         Me.ExitButton.BackColor = System.Drawing.Color.Red
+        Me.ExitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.ExitButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ExitButton.Location = New System.Drawing.Point(1041, 524)
         Me.ExitButton.Name = "ExitButton"
@@ -139,7 +140,7 @@ Partial Class DinerMenu2Form
         Me.SteakButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.SteakButton.Font = New System.Drawing.Font("Ravie", 12.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SteakButton.Location = New System.Drawing.Point(451, 524)
+        Me.SteakButton.Location = New System.Drawing.Point(494, 525)
         Me.SteakButton.Name = "SteakButton"
         Me.SteakButton.Size = New System.Drawing.Size(181, 124)
         Me.SteakButton.TabIndex = 3
@@ -152,9 +153,9 @@ Partial Class DinerMenu2Form
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PizzaButton.ForeColor = System.Drawing.Color.Black
         Me.PizzaButton.Image = Global.DinerMenu2.My.Resources.Resources.PIZZA
-        Me.PizzaButton.Location = New System.Drawing.Point(264, 524)
+        Me.PizzaButton.Location = New System.Drawing.Point(277, 525)
         Me.PizzaButton.Name = "PizzaButton"
-        Me.PizzaButton.Size = New System.Drawing.Size(181, 124)
+        Me.PizzaButton.Size = New System.Drawing.Size(211, 124)
         Me.PizzaButton.TabIndex = 2
         Me.PizzaButton.Text = "Pizza"
         Me.PizzaButton.UseVisualStyleBackColor = True
@@ -168,7 +169,7 @@ Partial Class DinerMenu2Form
         Me.MeatloafButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.MeatloafButton.Location = New System.Drawing.Point(12, 524)
         Me.MeatloafButton.Name = "MeatloafButton"
-        Me.MeatloafButton.Size = New System.Drawing.Size(246, 124)
+        Me.MeatloafButton.Size = New System.Drawing.Size(259, 124)
         Me.MeatloafButton.TabIndex = 1
         Me.MeatloafButton.Text = "Meatloaf"
         Me.MeatloafButton.UseVisualStyleBackColor = True
@@ -185,8 +186,10 @@ Partial Class DinerMenu2Form
         '
         'DinerMenu2Form
         '
+        Me.AcceptButton = Me.HomeButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.ExitButton
         Me.ClientSize = New System.Drawing.Size(1228, 865)
         Me.Controls.Add(Me.SplitContainer1)
         Me.Name = "DinerMenu2Form"
