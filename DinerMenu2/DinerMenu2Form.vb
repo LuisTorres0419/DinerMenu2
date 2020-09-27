@@ -1,4 +1,11 @@
-﻿Public Class DinerMenu2Form
+﻿
+'Luis Torres
+'RCET0265
+'Spring 2020
+'Diner Menu Program
+'https://github.com/LuisTorres0419/DinerMenu2.git
+
+Public Class DinerMenu2Form
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
         Me.Close()
     End Sub
