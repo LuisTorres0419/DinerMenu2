@@ -51,7 +51,7 @@ Public Class DinerMenu2Form
 -Seared
 -Medium rare"
 
-        My.Computer.Audio.Play("C:\Users\User\source\repos\DinerMenu2\DinerMenu2\Resources\steakmain.wav")
+        My.Computer.Audio.Play(My.Resources.steakmain, AudioPlayMode.Background) '"C:\Users\User\source\repos\DinerMenu2\DinerMenu2\Resources\steakmain.wav")
 
     End Sub
 
@@ -65,7 +65,7 @@ Public Class DinerMenu2Form
 -Mozzarella 
 -Love"
 
-        My.Computer.Audio.Play("C:\Users\User\source\repos\DinerMenu2\DinerMenu2\Resources\pizzamain.wav")
+        My.Computer.Audio.Play(My.Resources.pizzamain, AudioPlayMode.Background) '"C:\Users\User\source\repos\DinerMenu2\DinerMenu2\Resources\pizzamain.wav")
 
     End Sub
 
@@ -79,7 +79,7 @@ Public Class DinerMenu2Form
 -prepared mustard
 -katchup"
 
-        My.Computer.Audio.Play("C:\Users\User\source\repos\DinerMenu2\DinerMenu2\Resources\meatloaf2.wav")
+        My.Computer.Audio.Play(My.Resources.meatloaf2, AudioPlayMode.Background) '"C:\Users\User\source\repos\DinerMenu2\DinerMenu2\Resources\meatloaf2.wav")
 
     End Sub
 
