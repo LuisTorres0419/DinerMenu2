@@ -64,7 +64,7 @@ Partial Class DinerMenu2Form
         Me.SplitContainer1.Panel2.Controls.Add(Me.PizzaButton)
         Me.SplitContainer1.Panel2.Controls.Add(Me.MeatloafButton)
         Me.SplitContainer1.Panel2.Controls.Add(Me.RichTextBox)
-        Me.SplitContainer1.Size = New System.Drawing.Size(1228, 865)
+        Me.SplitContainer1.Size = New System.Drawing.Size(1226, 865)
         Me.SplitContainer1.SplitterDistance = 204
         Me.SplitContainer1.TabIndex = 0
         '
@@ -180,7 +180,7 @@ Partial Class DinerMenu2Form
         Me.RichTextBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox.Location = New System.Drawing.Point(0, 0)
         Me.RichTextBox.Name = "RichTextBox"
-        Me.RichTextBox.Size = New System.Drawing.Size(1228, 657)
+        Me.RichTextBox.Size = New System.Drawing.Size(1226, 657)
         Me.RichTextBox.TabIndex = 0
         Me.RichTextBox.Text = ""
         '
@@ -190,7 +190,7 @@ Partial Class DinerMenu2Form
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.ExitButton
-        Me.ClientSize = New System.Drawing.Size(1228, 865)
+        Me.ClientSize = New System.Drawing.Size(1226, 865)
         Me.Controls.Add(Me.SplitContainer1)
         Me.Name = "DinerMenu2Form"
         Me.Text = "DinerMenuForm"
